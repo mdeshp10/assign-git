@@ -1,11 +1,11 @@
 What is a gitignore file and what should it include for a Java project? 
-.gitignore file is used to avoid commiting unecessary files such as local set up changes etc to your source code. For java projects, generally .class and .ide files are ignored.
+.gitignore file is used to avoid commiting unecessary files such as local set up changes etc to your source code. For java projects, generally .class, .war, .jar and .ide files are ignored.
 
 What does fast-forward in git mean? 
-When you are merging another branch intou your current branch and there are no unresolved commits, it is known as fast forwarding.
+When you are merging another branch into your current branch and there are no unresolved commits in the current branch, the other branch's changes are merged cleanly into the current branch, it is known as fast forwarding.
 
 Why should you have different branches? 
-To allow collaboration across different developers and to work mutually exclusive features parallely.
+To allow collaboration amidst different developers and to work on mutually exclusive features parallely.
 
 In a project how many remote Git repositories do you usually have?
-Only one git repository is needed and multiple branches can be created.
+Usually, only one remote git repository (origin) is needed and multiple branches can be created. However, for larger projects, multiple repositories can be created to enable teams to work independently.
