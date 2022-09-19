@@ -9,3 +9,4 @@ To allow collaboration amidst different developers and to work on mutually exclu
 
 In a project how many remote Git repositories do you usually have?
 Usually, only one remote git repository (origin) is needed and multiple branches can be created. However, for larger projects, multiple repositories can be created to enable teams to work independently.
+
